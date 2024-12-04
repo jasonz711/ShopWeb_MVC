@@ -10,6 +10,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopWeb.Utility", "ShopWeb.Utility\ShopWeb.Utility.csproj", "{96565FA5-0BE8-489B-AE4A-65745CE77841}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopWeb", "ShopWeb\ShopWeb.csproj", "{5BE2586D-4542-4584-B710-5C3F9C8E4F16}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E986BA6-6B54-4486-AF29-52ED19569274} = {1E986BA6-6B54-4486-AF29-52ED19569274}
+		{96565FA5-0BE8-489B-AE4A-65745CE77841} = {96565FA5-0BE8-489B-AE4A-65745CE77841}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
