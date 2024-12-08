@@ -89,7 +89,7 @@
             </div>
             @if (!User.IsInRole(SD.Role_Admin) && !User.IsInRole(SD.Role_Employee))
             {
-                <div class="col-md-12 p-3 text-center">
+                @* <div class="col-md-12 p-3 text-center">
                     <section>
                         <p class="divider-text d-flex pt-3">or</p>
                         @{
@@ -119,7 +119,7 @@
                             }
                         }
                     </section>
-                </div>
+                </div> *@
             }
         </div>
     </div>

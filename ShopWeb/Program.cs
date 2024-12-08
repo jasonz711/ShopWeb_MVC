@@ -25,11 +25,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.LogoutPath = $"/Identity/Account/Logout";
     options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
 });
-builder.Services.AddAuthentication().AddFacebook(option =>
-{
-    option.AppId = "1109992743355285";
-    option.AppSecret = "ec9b1295dd9e412126447f54fa225523";
-});
+
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
